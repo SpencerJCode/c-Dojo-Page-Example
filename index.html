@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navBar">
+        <div class="search">
+            <img src="assets\catbanner.png" alt="CodeIt Logo">
+            <h2>CodeIt</h2>
+            <input type="text" placeholder="search" id="navSearch">
+            <button type="button" name="Go" onclick="goThere()">Go</button>
+        </div>
+        <div class="navButtons">
+            <button type="button" name="GetApp" id="getApp">Get App</button>
+            <button type="button" name="LogIn" id="logIn">Log In</button>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="bannerSpace"></div>
+        <div class="bannerTop">
+            <img src="assets\catcircle.png" alt="CodeIt Main Logo">
+            <h2>c/Dojo</h2>
+            <button type="button" name="Join Button" id="joinButton" onclick="remove(this)">Join</button>
+        </div>
+        <div class="bannerBottom">
+            <h5 class="currentPage">Posts</h5>
+            <h5>Wiki</h5>
+            <h5>c/Dojo</h5>
+            <h5>Discord</h5>
+        </div>
+    </div>
+    <div class="mainBody">
+        <div class="bodyContent">
+            <div class="postsColumn">
+                <div class="onePost">
+                    <div class="likes">
+                        <img src="assets/up-arrow.png" alt="Up Arrow" onclick="billJack()">
+                        <h5 class="topLikes">29</h5>
+                        <img src="assets/down-arrow.png" alt="Down Arrow">
+                    </div>
+                    <div class="postContent">
+                        <h1>Best of Project Week 2022!</h1>
+                        <img src="assets/blankpic.png" alt="Picture Placeholder">
+                        <div class="shareBar">
+                            <img src="assets/commentbubble.png" alt="Comment Bubble">
+                            <h5>42 comments</h5>
+                            <img src="assets/sharearrow.png" alt="Share Arrow">
+                            <h5>Share</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="onePost">
+                    <div class="likes">
+                        <img src="assets/up-arrow.png" alt="Up Arrow" onclick="jillJack()">
+                        <h5 class="bottomLikes">17</h5>
+                        <img src="assets/down-arrow.png" alt="Down Arrow">
+                    </div>
+                    <div class="postContent">
+                        <h1>I use my cat as a rubber duck, is that weird?</h1>
+                        <img src="assets/blankpic.png" alt="Picture Placeholder" id="squishedPic">
+                        <div class="shareBar">
+                            <img src="assets/commentbubble.png" alt="Comment Bubble">
+                            <h5>16 comments</h5>
+                            <img src="assets/sharearrow.png" alt="Share Arrow">
+                            <h5>Share</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pageDataColumns">
+                <div class="dataBox">
+                    <div class="dataHead">About the Dojo</div>
+                    <div class="dataBody">Changing Lives with Code and a dedicated comunity of debuggers!</div>
+                </div>
+                <div class="dataBox">
+                    <div class="dataHead">Discord</div>
+                    <div class="dataBody">
+                        <button type="button" name="Discord Link" class="discordButton">discord.gg/cdojo</button>
+                    </div>
+                </div>
+                <div class="dataBox">
+                    <div class="dataHead">c/Dojo Rules</div>
+                    <div class="dataBody">
+                        <ol class="rules">
+                            <li>Follow the 20 Minute Rule!</li>
+                            <li>Don't compare yourself to others!</li>
+                            <li>Learn Actively</li>
+                            <li>Don't Chase Best Practices (Yet)</li>
+                            <li>When you're behind, ask for help!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

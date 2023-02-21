@@ -1,0 +1,236 @@
+* {
+vertical-align: baseline;
+font-weight: inherit;
+font-family: inherit;
+font-style: inherit;
+font-size: 100%;
+border: 0 none;
+outline: 0;
+padding: 0;
+margin: 0;
+}
+/* this global reset was found in an article by Jeff Star, and can be found at
+https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/ */
+
+.navBar {
+    margin: 0 auto;
+    background-color:  rgb(153,153,153);
+    width: 800px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:400px;
+}
+
+.search > img {
+    width:25px;
+    height:25px;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+
+.search > h2 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+#navSearch {
+    outline: solid 3px black;
+    border-radius: 3%;
+}
+
+.search > button {
+    background-color: goldenrod;
+    box-shadow: 4px 4px black;
+    padding: 1px 6px 1px 6px;
+    outline: solid 3px black;
+}
+
+.navButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:160px;
+}
+
+#getApp {
+    padding: 2px 10px 2px 10px;
+    outline: solid 3px black;
+    background-color: rgb(49, 95, 246);
+    color:white;
+    font-weight: 500;
+    border-radius: 7%;
+    font-size: small;
+}
+
+#logIn {
+    padding: 2px 10px 2px 10px;
+    outline: solid 3px black;
+    background-color: goldenrod;
+    font-weight: 500;
+    border-radius: 7%;
+    font-size: small;
+}
+
+.banner {
+    margin: 0 auto;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.bannerSpace {
+    height:30px;
+}
+
+.bannerTop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1.3em;
+}
+
+.bannerTop > img {
+    width: 55px;
+    height: 55px;
+}
+
+.bannerTop > h2 {
+    font-size: x-large;
+    font-weight: 800;
+}
+
+#joinButton {
+    background-color: rgb(198, 56, 5);
+    color: white;
+    border-radius: 8%;
+    font-size: smaller;
+    padding: 5px 20px 5px 20px;
+}
+
+.bannerBottom{
+    display: flex;
+    gap: 1em;
+    margin-left:10px;
+}
+
+.bannerBottom > h5 {
+    font-size: small;
+}
+
+.currentPage {
+    text-decoration: underline;
+    color:orangered;
+}
+
+.mainBody {
+    background-color:rgb(233, 233, 233);
+    width: 800px;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 5px;
+}
+
+.bodyContent {
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postsColumn {
+    width: 310px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.onePost {
+    background-color: white;
+    outline: solid 3px black;
+    height: 210px;
+    display: flex;
+    gap:1em;
+}
+
+.pageDataColumns {
+    width: 210px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.likes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.likes > img {
+    width: 14px;
+    height: 14px;
+}
+
+.shareBar {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+
+.shareBar > img {
+    width: 20px;
+    height: 20px;
+}
+
+.postContent > h1 {
+    margin: 5px;
+    font-weight: 600;
+}
+
+#squishedPic {
+    height: 135px;
+}
+
+.dataBox {
+    background-color: white;
+    outline: solid 3px black;
+}
+
+.dataHead {
+    background-color: rgb(198, 56, 5);
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.dataBody {
+    font-size: 13px;
+    margin: 3px 3px 35px 3px;
+}
+
+.rules {
+    margin-left: 20px;
+}
+
+.discordButton {
+    outline:solid 2px black;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 35px;
+    padding: 8px 20px 8px 20px;
+}
